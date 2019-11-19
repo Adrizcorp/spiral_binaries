@@ -1,0 +1,10 @@
+opts := SpiralDefaults;
+opts.globalUnrolling;
+opts.arrayBufModifier;
+opts.includes;
+opts.unparser;
+opts.codegen;
+opts.useDeref;
+opts.Xtype;
+opts.compileStrategy;
+opts.breakdownRules;

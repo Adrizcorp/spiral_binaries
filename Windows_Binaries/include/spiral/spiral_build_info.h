@@ -1,0 +1,30 @@
+/*
+ * Copyright (c) 2018-2019, Carnegie Mellon University
+ * All rights reserved.  See LICENSE for details.
+ */
+
+#ifndef SPIRAL_BUILD_INFO_H
+#define SPIRAL_BUILD_INFO_H
+
+
+#define SPIRAL_VERSION_MAJOR   8
+#define SPIRAL_VERSION_MINOR   1
+#define SPIRAL_VERSION_PATCH   1
+#define SPIRAL_VERSION_TWEAK   
+#define SPIRAL_VERSION_STRING "8.1.1"
+
+#define SPIRAL_GIT_COMMIT_HASH "38deeab501fc5b3c7d76f66380566cca66554daf"
+
+#define SPIRAL_BUILD_TYPE "Release"
+#define SPIRAL_C_FLAGS    "/DWIN32 /D_WINDOWS /W3"
+#define SPIRAL_CXX_FLAGS  "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+
+#define SPIRAL_CMAKE_HOST_SYSTEM_NAME    "Windows"
+#define SPIRAL_CMAKE_HOST_SYSTEM_VERSION "10.0.17763"
+
+#define SPIRAL_CMAKE_SYSTEM_NAME      "Windows"
+#define SPIRAL_CMAKE_SYSTEM_VERSION   "10.0.17763"
+#define SPIRAL_CMAKE_SYSTEM_PROCESSOR "AMD64"
+
+
+#endif // SPIRAL_BUILD_INFO_H

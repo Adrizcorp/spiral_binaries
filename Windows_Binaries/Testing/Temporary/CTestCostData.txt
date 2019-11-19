@@ -1,0 +1,12 @@
+Simple-FFT 1 0.0393647
+basic_test 1 0.0443837
+break-me 1 0.0391307
+integers_test 1 0.0373672
+DP-Search 1 0.0387442
+FFT-with-SIMD 1 0.0413052
+3D-FFT-AVX 1 0.0388613
+OpenMP 1 0.039797
+Hockney 1 0.0398759
+Planewave-3D-FFT 1 0.0388605
+WarpX-1D 1 0.0396189
+---

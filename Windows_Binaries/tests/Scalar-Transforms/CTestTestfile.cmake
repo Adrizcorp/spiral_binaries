@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: C:/spiral/spiral-software/tests/Scalar-Transforms
+# Build directory: C:/spiral/spiral-software/tests/Scalar-Transforms
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(Simple-FFT "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\Scalar-Transforms\\Simple-FFT.g")
+  set_tests_properties(Simple-FFT PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "Scalar-Transforms" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(Simple-FFT "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\Scalar-Transforms\\Simple-FFT.g")
+  set_tests_properties(Simple-FFT PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "Scalar-Transforms" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(Simple-FFT "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\Scalar-Transforms\\Simple-FFT.g")
+  set_tests_properties(Simple-FFT PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "Scalar-Transforms" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(Simple-FFT "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\Scalar-Transforms\\Simple-FFT.g")
+  set_tests_properties(Simple-FFT PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "Scalar-Transforms" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;0;")
+else()
+  add_test(Simple-FFT NOT_AVAILABLE)
+endif()
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(DP-Search "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\Scalar-Transforms\\DP-Search.g")
+  set_tests_properties(DP-Search PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "Scalar-Transforms" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(DP-Search "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\Scalar-Transforms\\DP-Search.g")
+  set_tests_properties(DP-Search PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "Scalar-Transforms" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(DP-Search "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\Scalar-Transforms\\DP-Search.g")
+  set_tests_properties(DP-Search PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "Scalar-Transforms" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(DP-Search "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\Scalar-Transforms\\DP-Search.g")
+  set_tests_properties(DP-Search PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "Scalar-Transforms" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/Scalar-Transforms/CMakeLists.txt;0;")
+else()
+  add_test(DP-Search NOT_AVAILABLE)
+endif()

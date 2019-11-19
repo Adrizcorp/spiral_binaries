@@ -1,0 +1,201 @@
+Start testing: Nov 19 09:29 Pacific Standard Time
+----------------------------------------------------------
+1/11 Testing: basic_test
+1/11 Test: basic_test
+Command: "C:/spiral/spiral-software/spiral.bat" "<" "C:\spiral\spiral-software\tests\Basic\basic_test.g"
+Directory: C:/spiral/spiral-software/tests/Basic
+"basic_test" start time: Nov 19 09:29 Pacific Standard Time
+Output:
+----------------------------------------------------------
+'"C:\spiral\spiral-software\gap\bin\gap.exe"' is not recognized as an internal or external command,
+operable program or batch file.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"basic_test" end time: Nov 19 09:29 Pacific Standard Time
+"basic_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: break-me
+2/11 Test: break-me
+Command: "C:/spiral/spiral-software/spiral.bat" "<" "C:\spiral\spiral-software\tests\Basic\break-me.g"
+Directory: C:/spiral/spiral-software/tests/Basic
+"break-me" start time: Nov 19 09:29 Pacific Standard Time
+Output:
+----------------------------------------------------------
+'"C:\spiral\spiral-software\gap\bin\gap.exe"' is not recognized as an internal or external command,
+operable program or batch file.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"break-me" end time: Nov 19 09:29 Pacific Standard Time
+"break-me" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: integers_test
+3/11 Test: integers_test
+Command: "C:/spiral/spiral-software/spiral.bat" "<" "C:\spiral\spiral-software\tests\Basic\integers_test.g"
+Directory: C:/spiral/spiral-software/tests/Basic
+"integers_test" start time: Nov 19 09:29 Pacific Standard Time
+Output:
+----------------------------------------------------------
+'"C:\spiral\spiral-software\gap\bin\gap.exe"' is not recognized as an internal or external command,
+operable program or batch file.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"integers_test" end time: Nov 19 09:29 Pacific Standard Time
+"integers_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: Simple-FFT
+4/11 Test: Simple-FFT
+Command: "C:/spiral/spiral-software/spiral.bat" "<" "C:\spiral\spiral-software\tests\Scalar-Transforms\Simple-FFT.g"
+Directory: C:/spiral/spiral-software/tests/Scalar-Transforms
+"Simple-FFT" start time: Nov 19 09:29 Pacific Standard Time
+Output:
+----------------------------------------------------------
+'"C:\spiral\spiral-software\gap\bin\gap.exe"' is not recognized as an internal or external command,
+operable program or batch file.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"Simple-FFT" end time: Nov 19 09:29 Pacific Standard Time
+"Simple-FFT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: DP-Search
+5/11 Test: DP-Search
+Command: "C:/spiral/spiral-software/spiral.bat" "<" "C:\spiral\spiral-software\tests\Scalar-Transforms\DP-Search.g"
+Directory: C:/spiral/spiral-software/tests/Scalar-Transforms
+"DP-Search" start time: Nov 19 09:29 Pacific Standard Time
+Output:
+----------------------------------------------------------
+'"C:\spiral\spiral-software\gap\bin\gap.exe"' is not recognized as an internal or external command,
+operable program or batch file.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DP-Search" end time: Nov 19 09:29 Pacific Standard Time
+"DP-Search" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: FFT-with-SIMD
+6/11 Test: FFT-with-SIMD
+Command: "C:/spiral/spiral-software/spiral.bat" "<" "C:\spiral\spiral-software\tests\X86-SIMD\FFT-with-SIMD.g"
+Directory: C:/spiral/spiral-software/tests/X86-SIMD
+"FFT-with-SIMD" start time: Nov 19 09:29 Pacific Standard Time
+Output:
+----------------------------------------------------------
+'"C:\spiral\spiral-software\gap\bin\gap.exe"' is not recognized as an internal or external command,
+operable program or batch file.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"FFT-with-SIMD" end time: Nov 19 09:29 Pacific Standard Time
+"FFT-with-SIMD" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: 3D-FFT-AVX
+7/11 Test: 3D-FFT-AVX
+Command: "C:/spiral/spiral-software/spiral.bat" "<" "C:\spiral\spiral-software\tests\X86-SIMD\3D-FFT-AVX.g"
+Directory: C:/spiral/spiral-software/tests/X86-SIMD
+"3D-FFT-AVX" start time: Nov 19 09:29 Pacific Standard Time
+Output:
+----------------------------------------------------------
+'"C:\spiral\spiral-software\gap\bin\gap.exe"' is not recognized as an internal or external command,
+operable program or batch file.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"3D-FFT-AVX" end time: Nov 19 09:29 Pacific Standard Time
+"3D-FFT-AVX" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: OpenMP
+8/11 Test: OpenMP
+Command: "C:/spiral/spiral-software/spiral.bat" "<" "C:\spiral\spiral-software\tests\OpenMP\OpenMP.g"
+Directory: C:/spiral/spiral-software/tests/OpenMP
+"OpenMP" start time: Nov 19 09:29 Pacific Standard Time
+Output:
+----------------------------------------------------------
+'"C:\spiral\spiral-software\gap\bin\gap.exe"' is not recognized as an internal or external command,
+operable program or batch file.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"OpenMP" end time: Nov 19 09:29 Pacific Standard Time
+"OpenMP" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: Hockney
+9/11 Test: Hockney
+Command: "C:/spiral/spiral-software/spiral.bat" "<" "C:\spiral\spiral-software\tests\Advanced\Hockney.g"
+Directory: C:/spiral/spiral-software/tests/Advanced
+"Hockney" start time: Nov 19 09:29 Pacific Standard Time
+Output:
+----------------------------------------------------------
+'"C:\spiral\spiral-software\gap\bin\gap.exe"' is not recognized as an internal or external command,
+operable program or batch file.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"Hockney" end time: Nov 19 09:29 Pacific Standard Time
+"Hockney" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: Planewave-3D-FFT
+10/11 Test: Planewave-3D-FFT
+Command: "C:/spiral/spiral-software/spiral.bat" "<" "C:\spiral\spiral-software\tests\Advanced\Planewave-3D-FFT.g"
+Directory: C:/spiral/spiral-software/tests/Advanced
+"Planewave-3D-FFT" start time: Nov 19 09:29 Pacific Standard Time
+Output:
+----------------------------------------------------------
+'"C:\spiral\spiral-software\gap\bin\gap.exe"' is not recognized as an internal or external command,
+operable program or batch file.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"Planewave-3D-FFT" end time: Nov 19 09:29 Pacific Standard Time
+"Planewave-3D-FFT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: WarpX-1D
+11/11 Test: WarpX-1D
+Command: "C:/spiral/spiral-software/spiral.bat" "<" "C:\spiral\spiral-software\tests\Advanced\WarpX-1D.g"
+Directory: C:/spiral/spiral-software/tests/Advanced
+"WarpX-1D" start time: Nov 19 09:29 Pacific Standard Time
+Output:
+----------------------------------------------------------
+'"C:\spiral\spiral-software\gap\bin\gap.exe"' is not recognized as an internal or external command,
+operable program or batch file.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"WarpX-1D" end time: Nov 19 09:29 Pacific Standard Time
+"WarpX-1D" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 19 09:29 Pacific Standard Time
+
+Advanced =   0.12 sec*proc
+
+Basic =   0.12 sec*proc
+
+OpenMP =   0.04 sec*proc
+
+Scalar-Transforms =   0.08 sec*proc
+
+X86-SIMD =   0.08 sec*proc
+

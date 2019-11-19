@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\spiral\spiral-software\CMakeFiles\1a0fd6b4bc07cdb3e10a11e6251fcbd3\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{92A03515-93B0-32CE-87A6-9736772ED5A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

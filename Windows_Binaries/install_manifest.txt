@@ -1,0 +1,4 @@
+C:/spiral/spiral-software/spiral.bat
+C:/spiral/spiral-software/spiral_debug.bat
+C:/spiral/spiral-software/_spiral_win.g
+C:/spiral/spiral-software/gap/bin/gap.exe

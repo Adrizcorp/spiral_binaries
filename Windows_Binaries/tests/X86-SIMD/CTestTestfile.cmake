@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: C:/spiral/spiral-software/tests/X86-SIMD
+# Build directory: C:/spiral/spiral-software/tests/X86-SIMD
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(FFT-with-SIMD "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\X86-SIMD\\FFT-with-SIMD.g")
+  set_tests_properties(FFT-with-SIMD PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "X86-SIMD" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(FFT-with-SIMD "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\X86-SIMD\\FFT-with-SIMD.g")
+  set_tests_properties(FFT-with-SIMD PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "X86-SIMD" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(FFT-with-SIMD "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\X86-SIMD\\FFT-with-SIMD.g")
+  set_tests_properties(FFT-with-SIMD PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "X86-SIMD" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(FFT-with-SIMD "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\X86-SIMD\\FFT-with-SIMD.g")
+  set_tests_properties(FFT-with-SIMD PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "X86-SIMD" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;0;")
+else()
+  add_test(FFT-with-SIMD NOT_AVAILABLE)
+endif()
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(3D-FFT-AVX "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\X86-SIMD\\3D-FFT-AVX.g")
+  set_tests_properties(3D-FFT-AVX PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "X86-SIMD" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(3D-FFT-AVX "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\X86-SIMD\\3D-FFT-AVX.g")
+  set_tests_properties(3D-FFT-AVX PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "X86-SIMD" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(3D-FFT-AVX "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\X86-SIMD\\3D-FFT-AVX.g")
+  set_tests_properties(3D-FFT-AVX PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "X86-SIMD" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(3D-FFT-AVX "C:/spiral/spiral-software/spiral.bat" "<" "C:\\spiral\\spiral-software\\tests\\X86-SIMD\\3D-FFT-AVX.g")
+  set_tests_properties(3D-FFT-AVX PROPERTIES  FAIL_REGULAR_EXPRESSION "TEST FAILED" LABELS "X86-SIMD" _BACKTRACE_TRIPLES "C:/spiral/spiral-software/config/CMakeIncludes/TestDefines.cmake;37;add_test;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;22;my_add_test_target;C:/spiral/spiral-software/tests/X86-SIMD/CMakeLists.txt;0;")
+else()
+  add_test(3D-FFT-AVX NOT_AVAILABLE)
+endif()

@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C6F8E58B-56FB-35F1-9A73-2DA071271563}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>gap</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\spiral\spiral-software\gap\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gap.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gapd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\spiral\spiral-software\gap\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gap.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gap</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\spiral\spiral-software\gap\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gap.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gap</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\spiral\spiral-software\gap\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gap.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gap</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\spiral\spiral-software\include\spiral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SYS_IS_64_BIT;WIN64;YY_NO_UNISTD_H;_USE_MATH_DEFINES;_CONSOLE;inline=__inline;NDEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;SYS_IS_64_BIT;WIN64;YY_NO_UNISTD_H;_USE_MATH_DEFINES;_CONSOLE;inline=__inline;NDEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\spiral\spiral-software\include\spiral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\spiral\spiral-software\include\spiral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/spiral/spiral-software/gap/src/Debug/gapd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/spiral/spiral-software/gap/src/Debug/gapd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\spiral\spiral-software\include\spiral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SYS_IS_64_BIT;WIN64;YY_NO_UNISTD_H;_USE_MATH_DEFINES;_CONSOLE;inline=__inline;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SYS_IS_64_BIT;WIN64;YY_NO_UNISTD_H;_USE_MATH_DEFINES;_CONSOLE;inline=__inline;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\spiral\spiral-software\include\spiral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\spiral\spiral-software\include\spiral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/spiral/spiral-software/gap/src/Release/gap.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/spiral/spiral-software/gap/src/Release/gap.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\spiral\spiral-software\include\spiral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SYS_IS_64_BIT;WIN64;YY_NO_UNISTD_H;_USE_MATH_DEFINES;_CONSOLE;inline=__inline;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SYS_IS_64_BIT;WIN64;YY_NO_UNISTD_H;_USE_MATH_DEFINES;_CONSOLE;inline=__inline;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\spiral\spiral-software\include\spiral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\spiral\spiral-software\include\spiral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/spiral/spiral-software/gap/src/MinSizeRel/gap.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/spiral/spiral-software/gap/src/MinSizeRel/gap.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\spiral\spiral-software\include\spiral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SYS_IS_64_BIT;WIN64;YY_NO_UNISTD_H;_USE_MATH_DEFINES;_CONSOLE;inline=__inline;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SYS_IS_64_BIT;WIN64;YY_NO_UNISTD_H;_USE_MATH_DEFINES;_CONSOLE;inline=__inline;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\spiral\spiral-software\include\spiral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\spiral\spiral-software\include\spiral;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/spiral/spiral-software/gap/src/RelWithDebInfo/gap.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/spiral/spiral-software/gap/src/RelWithDebInfo/gap.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\spiral\spiral-software\gap\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/spiral/spiral-software/gap/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/spiral/spiral-software -BC:/spiral/spiral-software --check-stamp-file C:/spiral/spiral-software/gap/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\spiral\spiral-software\gap\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/spiral/spiral-software/gap/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/spiral/spiral-software -BC:/spiral/spiral-software --check-stamp-file C:/spiral/spiral-software/gap/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\spiral\spiral-software\gap\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/spiral/spiral-software/gap/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/spiral/spiral-software -BC:/spiral/spiral-software --check-stamp-file C:/spiral/spiral-software/gap/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\spiral\spiral-software\gap\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/spiral/spiral-software/gap/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/spiral/spiral-software -BC:/spiral/spiral-software --check-stamp-file C:/spiral/spiral-software/gap/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\spiral\spiral-software\gap\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\system.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SYS_HAS_TIME_PROTO;SYS_HAS_IOCTL_PROTO;SYS_HAS_READ_PROTO;SYS_HAS_MISC_PROTO;SYS_HAS_MALLOC_PROTO;SYS_HAS_STRING_PROTO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SYS_HAS_TIME_PROTO;SYS_HAS_IOCTL_PROTO;SYS_HAS_READ_PROTO;SYS_HAS_MISC_PROTO;SYS_HAS_MALLOC_PROTO;SYS_HAS_STRING_PROTO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SYS_HAS_TIME_PROTO;SYS_HAS_IOCTL_PROTO;SYS_HAS_READ_PROTO;SYS_HAS_MISC_PROTO;SYS_HAS_MALLOC_PROTO;SYS_HAS_STRING_PROTO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SYS_HAS_TIME_PROTO;SYS_HAS_IOCTL_PROTO;SYS_HAS_READ_PROTO;SYS_HAS_MISC_PROTO;SYS_HAS_MALLOC_PROTO;SYS_HAS_STRING_PROTO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\gap.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\memmgr.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\scanner.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\idents.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\read.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\eval.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\spiral_delay_ev.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\spiral_fft.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\spiral_spl_prog.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\spiral.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\globals.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\fft.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\sys_conf_wrap.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\args.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\comments.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\type_wrap.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\hooks.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\namespaces.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\tables.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\spiral_bag_list.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\double.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\complex.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\lex.yy.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\interface.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\buf_list.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\iface.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\iface_table.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\iface_original.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\iface_console.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\iface_batch.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\debug.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\md5.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\hash.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\namespaces_bin.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\integer.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\integer4.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\rational.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\cyclotom.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\unknown.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\finfield.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\polynom.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\permutat.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\word.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\costab.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\tietze.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\agcollec.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\aggroup.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\pcpresen.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\list.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\plist.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\set.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\vector.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\vecffe.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\range.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\blister.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\gstring.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\string4.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\record.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\statemen.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\function.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\coding.c" />
+    <ClCompile Include="C:\spiral\spiral-software\gap\src\GapUtils.c" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\GapUtils.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\agcollec.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\aggroup.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\args.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\blister.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\buf_list.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\coding.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\comments.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\complex.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\conf.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\costab.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\cyclotom.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\debug.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\double.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\endian.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\eval.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\exceptions_def.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\exceptions_msg.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\fft.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\finfield.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\function.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\gstring.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\hash.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\hooks.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\idents.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\ieee754.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\iface.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\iface_batch.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\iface_console.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\iface_original.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\iface_tcpip.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\integer.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\integer4.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\interface.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\ipc.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\list.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\machine_endian.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\md5.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\memmgr.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\namespaces.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\namespaces_bin.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\objects.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\pcpresen.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\permutat.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\plist.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\polynom.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\range.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\rational.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\read.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\record.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\scanner.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\set.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\spiral.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\spiral_bag_list.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\spiral_delay_ev.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\spiral_fft.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\spiral_spl_prog.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\statemen.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\string4.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\system.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\system4.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\system_types.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\tables.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\tietze.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\unknown.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\vecffe.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\vector.h" />
+    <ClInclude Include="C:\spiral\spiral-software\gap\src\word.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\spiral\spiral-software\ZERO_CHECK.vcxproj">
+      <Project>{563A0F4D-9922-3D7B-99BB-3796B2BC81F8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

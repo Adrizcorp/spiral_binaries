@@ -1,0 +1,34 @@
+﻿  Test project C:/spiral/spiral-software
+        Start  1: basic_test
+   1/11 Test  #1: basic_test .......................   Passed    0.04 sec
+        Start  2: break-me
+   2/11 Test  #2: break-me .........................   Passed    0.04 sec
+        Start  3: integers_test
+   3/11 Test  #3: integers_test ....................   Passed    0.04 sec
+        Start  4: Simple-FFT
+   4/11 Test  #4: Simple-FFT .......................   Passed    0.04 sec
+        Start  5: DP-Search
+   5/11 Test  #5: DP-Search ........................   Passed    0.04 sec
+        Start  6: FFT-with-SIMD
+   6/11 Test  #6: FFT-with-SIMD ....................   Passed    0.04 sec
+        Start  7: 3D-FFT-AVX
+   7/11 Test  #7: 3D-FFT-AVX .......................   Passed    0.04 sec
+        Start  8: OpenMP
+   8/11 Test  #8: OpenMP ...........................   Passed    0.04 sec
+        Start  9: Hockney
+   9/11 Test  #9: Hockney ..........................   Passed    0.04 sec
+        Start 10: Planewave-3D-FFT
+  10/11 Test #10: Planewave-3D-FFT .................   Passed    0.04 sec
+        Start 11: WarpX-1D
+  11/11 Test #11: WarpX-1D .........................   Passed    0.04 sec
+  
+  100% tests passed, 0 tests failed out of 11
+  
+  Label Time Summary:
+  Advanced             =   0.12 sec*proc (3 tests)
+  Basic                =   0.12 sec*proc (3 tests)
+  OpenMP               =   0.04 sec*proc (1 test)
+  Scalar-Transforms    =   0.08 sec*proc (2 tests)
+  X86-SIMD             =   0.08 sec*proc (2 tests)
+  
+  Total Test time (real) =   0.47 sec

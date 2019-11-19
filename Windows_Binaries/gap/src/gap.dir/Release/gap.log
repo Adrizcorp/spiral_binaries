@@ -1,0 +1,74 @@
+﻿  Building Custom Rule C:/spiral/spiral-software/gap/src/CMakeLists.txt
+  system.c
+cl : command line warning D9025: overriding '/W3' with '/w'
+  gap.c
+  memmgr.c
+  scanner.c
+  idents.c
+  read.c
+  eval.c
+  spiral_delay_ev.c
+  spiral_fft.c
+  spiral_spl_prog.c
+  spiral.c
+  globals.c
+  fft.c
+  sys_conf_wrap.c
+  args.c
+  comments.c
+  type_wrap.c
+  hooks.c
+  namespaces.c
+  tables.c
+  spiral_bag_list.c
+  Generating Code...
+  Compiling...
+  double.c
+  complex.c
+  lex.yy.c
+  interface.c
+  buf_list.c
+  iface.c
+  iface_table.c
+  iface_original.c
+  iface_console.c
+  iface_batch.c
+  debug.c
+  md5.c
+  hash.c
+  namespaces_bin.c
+  integer.c
+  integer4.c
+  rational.c
+  cyclotom.c
+  unknown.c
+  finfield.c
+  Generating Code...
+  Compiling...
+  polynom.c
+  permutat.c
+  word.c
+  costab.c
+  tietze.c
+  agcollec.c
+  aggroup.c
+  pcpresen.c
+  list.c
+  plist.c
+  set.c
+  vector.c
+  vecffe.c
+  range.c
+  blister.c
+  gstring.c
+  string4.c
+  record.c
+  statemen.c
+  function.c
+  Generating Code...
+  Compiling...
+  coding.c
+  GapUtils.c
+  Generating Code...
+cl : command line warning D9025: overriding '/W3' with '/w'
+  gap.vcxproj -> C:\spiral\spiral-software\gap\src\Release\gap.exe
